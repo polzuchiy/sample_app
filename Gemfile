@@ -7,6 +7,8 @@ gem 'rails', '3.1.3'
 
 gem 'mysql2'
 
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
 gem 'json'
 
 # Gems used only for assets and not required
@@ -21,6 +23,9 @@ group :development do
 end
 gem 'jquery-rails'
 
+group :test do
+  gem 'factory_girl_rails', '1.0'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
