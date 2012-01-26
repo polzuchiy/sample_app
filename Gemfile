@@ -9,6 +9,8 @@ gem 'mysql2'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
 
+gem 'will_paginate', '3.0.pre2'
+
 gem 'json'
 
 # Gems used only for assets and not required
@@ -20,6 +22,7 @@ group :assets do
 end
 group :development do
   gem 'annotate', '2.4.0'
+  gem 'faker', '0.3.1'
 end
 gem 'jquery-rails'
 
